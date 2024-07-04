@@ -7,7 +7,7 @@ export default function Home() {
       <section className="py-8">
         <div className="max-w-4xl mx-auto bg-surface p-8 rounded-lg">
           <h1 className="text-4xl font-bold text-center font-display">Welcome to Forkd</h1>
-          <div className="mt-4 text-xl text-center font-display">It's GitHub, but for recipes.</div>
+          <div className="mt-4 text-xl text-center font-display">It&apos;s GitHub, but for recipes.</div>
           <div className="mt-6 text-center">
             <Link href="/recipes/new" className="inline-flex items-center bg-primary text-on-primary rounded-full px-4 h-10">
               Create a new recipe
