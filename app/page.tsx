@@ -1,4 +1,18 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: {
+    absolute: 'Forkd',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: '/',
+    title: 'About Forkd',
+    description: 'It\'s GitHub, but for recipes.',
+  },
+};
 
 export default function Home() {
   return (

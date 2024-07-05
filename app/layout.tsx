@@ -15,8 +15,25 @@ const frauncesFont = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Forkd",
+  title: {
+    template: "%s - Forkd",
+    default: "Forkd",
+  },
   description: "It's GitHub, but for recipes.",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://forkd.vercel.app",
+    siteName: "Forkd",
+    title: "Forkd",
+    description: "It's GitHub, but for recipes.",
+    images: [
+      {
+        url: "https://forkd.vercel.app/og-image.png",
+        alt: "Forkd",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
